@@ -1,0 +1,5 @@
+﻿ .box, .box::before, .box::after{
+     width: 387px;
+    height: 400px;
+ }
+

@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginModule.master.cs" Inherits="LoginModule.LoginModule" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>LodinAnimationModule</title>
+    <link href="CSS/StyleSheetMain.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+        <div>
+            <div class="box">
+                <div class="borderbox"><%----%>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
